@@ -1,0 +1,411 @@
+<html>
+  <head>
+    <title>Eclipse — privacy policy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Eclipse is a simple and sleeker messaging platform that allows you to chat with your friends and family.">
+    <meta name="keywords" content="eclipse, messaging, chat, friends, family, simple, sleeker">
+    <meta name="theme-color" content="#7D4BFF">
+    <link rel="icon" href="/icons/icon.png">
+    <!-- add apple icon support -->
+    <link rel="apple-touch-icon" href="/icons/icon.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/icons/icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/icon.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="/icons/icon.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/icons/icon.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/icons/icon.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/icons/icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/icons/icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/icons/icon.png">
+
+
+
+  <style>
+        @import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+    
+    * {
+      font-family:"Instrument Sans";
+    }
+
+    html {
+      margin:0;
+      padding:0;
+      background-color:#1E0843;
+      background-image: url('https://i.ibb.co/2KPLVXV/background.png');
+      background-size:cover;
+      background-position:top center;
+      background-repeat:no-repeat;
+    }
+
+    body {
+      padding:12px;
+      display:flex;
+      gap:20px;
+      flex-direction: column;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height:auto;
+      padding:12px 24px;
+      background: rgba(50, 13, 109, 0.20);
+      border-radius:24px;
+      margin:0;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 24px;
+      width:100%;
+      padding:0;
+      margin:0;
+    }
+
+
+
+    nav ul li:has(img) {
+      scale: 1;
+      transition: 0.1s ease-in-out;
+    }
+
+    nav ul li:has(img):hover {
+      transform: scale(0.98);
+    }
+
+    nav ul li {
+      list-style-type: none;
+    }
+
+    nav ul li a {
+      color: #FFF;
+      text-decoration: none;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    .gap {
+      flex-grow: 1;
+    }
+
+    .login-container {
+      display: flex;
+      max-width: 100%;
+      height:min-content;
+      padding: 30px;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: flex-start;
+      gap: 24px;
+      margin:0;
+      border-radius: 24px;
+      /* convert the hex color to rgba and set the opacity to 0.50 */
+      /* background: rgba(50, 13, 109, 0.50); */
+      background: rgba(50, 13, 109, 0.50);
+
+    }
+
+    .login-container.full {
+      min-height:50%;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      padding:60px;
+
+    }
+
+    .login-container.full p {
+      max-width:50%;
+      text-align: center;
+    }
+
+
+    .login-container .button.primary {
+      /* convert the hex color #7D4BFF to rgba and set the opacity to 0.30 */
+      background: rgba(125, 75, 255, 0.30);
+
+    }
+
+    h1 {
+      color: #FFF;
+      font-size: 30px;
+      margin:0;
+      font-weight: 700;
+    }
+
+    p {
+      color: #FFF;
+      font-size: 18px;
+      margin:0;
+      font-weight: 400;
+    }
+
+    button {
+      display: flex;
+      padding: 12px 30px;
+      justify-content: center;
+      align-items: center;
+      gap: 18px;
+      border:none;
+      border-radius: 7.5px;
+      background: rgba(50, 13, 109, 0.30);
+      color: #FFF;
+
+      scale: 1;
+      transition: 0.1s ease-in-out;
+    }
+    
+
+    button:hover {
+      transform: scale(0.98);
+      background: rgba(50, 13, 109, 0.50);
+    }
+
+    footer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 30px;
+      /* convert the hex color #1E0843 to rgba and set the opacity to 0.50 */
+      background: rgba(30, 8, 67, 0.50);
+      border-radius: 24px;
+    }
+
+    footer img {
+      margin-right: 15px;
+    }
+
+    footer p {
+      color: #FFF;
+    }
+
+    .primary {
+      background: #7D4BFF;
+    }
+
+    .primary:hover {
+      background: #2e1756;
+    }
+
+    .primary:disabled {
+      background: #2e1756;
+      color: #7D4BFF;
+    }
+
+    .primary:disabled:hover {
+      background: #2e1756;
+      color: #7D4BFF;
+      cursor: not-allowed;
+    }
+
+    button.full {
+      width: 100%;
+      padding: 15px 12px;
+      border-radius: 12px;
+    }
+
+    strong {
+      font-weight: 700;
+      color: #7D4BFF;
+      letter-spacing: -1.5px;
+    }
+
+    a:has(strong) {
+      text-decoration: none;
+      text-decoration-style: none;
+      color: #7D4BFF;
+    }
+
+    a:has(strong):hover {
+      text-decoration: underline;
+    }
+
+    /* scroll wheel */
+    ::-webkit-scrollbar {
+      width: 12px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: rgba(50, 13, 109, 1);
+      border-radius: 12px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #7D4BFF;
+      border-radius: 12px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: #2e1756;
+    }
+
+    .login-container {
+      position: relative;
+    }
+    
+    .login-container video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      position: absolute;
+      /* darken the video */
+      background: rgba(0, 0, 0, 0.60);
+      border-radius:24px;
+
+      /* center the video */
+    
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+
+    li a:has(button){
+      text-decoration: none;
+    }
+
+    li a:has(button):hover {
+      text-decoration: none;
+
+      /* make sure the button doesn't have an underline */
+      text-decoration-style: none;
+
+    }
+
+    .login-container ul {
+        display:flex;
+        flex-direction: column;
+        gap: 12px;
+        list-style-type: lower-latin;
+        color:#909090;
+        font-size: 16px;
+    }
+
+    .small {
+        font-size: 14px;
+    }
+
+
+    
+</style>
+<body>
+  <nav>
+    <ul>
+      <li><a href="/"><img src="/icons/logo.png" width="100"></a></li>
+      
+      <li><a href="/terms">Terms of Service</a></li>
+      <li><a href="/privacy">Privacy Policy</a></li>
+      <li class="gap"></li>
+      <li><a href="https://buymeacoffee.com/triswent">Donate</a></li>
+      <li><a href="/login"><button style="border-radius: 24px;" class="primary">Login / Signup</button></a></li>
+    </ul>
+  </nav>
+  <div class="login-container full">
+    <p class="small">effective: <strong>January 23rd 2025</strong></p>
+
+    <h1>our privacy policy</h1>
+    <p>Welcome to Eclipse, a messaging platform developed and maintained by Tristan Wentworth, a solo developer ("we," "our," or "us").</p>
+        <p>Eclipse is a personal project created with a focus on privacy and user experience.</p>
+        <p>Your privacy is important to me, and this Privacy Policy explains how I collect, use, and protect your information when you use the platform located at <a href="//eclipse.triswent.tech">eclipse.triswent.tech</a> (the "Platform").</p>  </div>
+  <div class="login-container">
+        <h1>1. information we collect</h1>
+        <p>When you use the Platform, we may collect the following information:</p>
+        <ul>
+            <li>Your email address</li>
+            <li>Your username</li>
+            <li>Your password</li>
+            <li>Your IP address</li>
+            <li>Your browser information</li>
+            <li>Your device information</li>
+            <li>Your messages</li>
+            <li>Your profile information</li>
+            </ul>
+  </div>
+    <div class="login-container">
+            <h1>2. how we use your information</h1>
+            <p>We use your information to:</p>
+            <ul>
+                <li>Provide you with the Platform</li>
+                <p>We use your information to provide you with the Platform and its features.</p>
+
+                <li>Improve the Platform</li>
+                <p>We use your information to improve the Platform and develop new features.</p>
+
+                <li>Protect our users</li>
+                <p>We use your information to protect our users and prevent abuse of the Platform.</p>
+
+                <li>Comply with the law</li>
+                <p>We use your information to comply with legal obligations.</p>
+
+                <li>Enforce our Terms of Service</li>
+                <p>We use your information to enforce our Terms of Service.</p>
+
+                <li>Communicate with you</li>
+                <p>We use your information to communicate with you about the Platform.</p>
+                </ul>
+        </div>
+        <div class="login-container">
+            <h1>3. how we share your information</h1>
+            <p>We respect your privacy and do not sell your personal information. However, we may share information in the following circumstances:</p>
+            <ul>
+                <li>With your consent</li>
+                <p>If you explicitly agree to share your information.</p>
+                <li>With our service providers</li>
+                <p>We may share information with trusted third parties who assist us in operating the platform, such as hosting services or analytics providers.</p>
+                <li>With law enforcement</li>
+                <p>We may share information if required by law or to protect our users.</p>      
+                <li>With our successors</li>
+                <p>If we are acquired or merged with another company, your information may be transferred to the new owners.</p>
+            </ul>
+        </div>
+        <div class="login-container">
+            <h1>4. how we protect your information</h1>
+            <p>We take reasonable measures to protect your information from unauthorized access, disclosure, alteration, or destruction. These measures include secure servers and encrypting data before they're sent to the servers. Passwords are encrypted on our servers for added security. However, messages are not yet encrypted during the Alpha stage. Additionally, personal information may be accessed internally by us for operational purposes, but the public API will not have access to this data.</p>
+            </div>
+            <div class="login-container">
+                <h1>5. your rights</h1>
+                <p>You have the right to:</p>
+                <ul>
+                    <li>Access your information</li>
+                    <li>Correct your information</li>
+                    <li>Request that we delete your information</li>
+                    <li>Opt-out of marketing communications</li>
+                    <li>Restrict the processing of your information</li>
+                    <li>Object to the processing of your information</li>
+                    <li>Request a copy of your information</li>
+                    </ul>
+                <p>If you would like to exercise any of these rights, please contact us at <a href="mailto:tris_went@proton.me?subject=Privacy%20Policy%20Request">tris_went@proton.me</a></p>
+                </div>
+            <div class="login-container">
+                <h1>6. data retention</h1>
+                <p>We will retain your information for as long as necessary to provide you with the Platform and comply with our legal obligations. If you would like us to delete your information, please contact us at <a href="mailto:tris_went@proton.me?subject=Privacy%20Policy%20Request">tris_went@proton.me</a></p>
+                </div>
+            <div class="login-container">
+                <h1>7. third party links</h1>
+                <p>The Platform may contain links to third party websites or services that are not owned or controlled by us. We are not responsible for the privacy practices of these websites or services. We recommend that you review the privacy policies of these websites or services before providing them with your information.</p>
+                </div>
+            <div class="login-container">
+                <h1>8. children's privacy</h1>
+                <p>The Platform is not intended for children under the age of 13. We do not knowingly collect information from children under the age of 13. If you are a parent or guardian and believe that your child has provided us with information, please contact us at  <a href="mailto:tris_went@proton.me?subject=Privacy%20Policy%20Request">tris_went@proton.me</a></p>
+                </div>
+            <div class="login-container">
+                <h1>9. changes to this privacy policy</h1>
+                <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
+                </div>
+            <div class="login-container">
+                <h1>10. have any questions? <strong>contact us</strong></h1>
+                <p>If you have any questions about this Privacy Policy, please contact us at  <a href="mailto:tris_went@proton.me?subject=Privacy%20Policy%20Request">tris_went@proton.me</a></p>
+                </div>
+  <footer>
+    <p>&copy; 2023-2025 Eclipse. All rights reserved.</p>
+  </footer>
+  <script>
+    // get the year and set it to the footer
+    document.querySelector('footer p').innerHTML = `2023-${new Date().getFullYear()} Eclipse. `;
+  </script>
+</body>
+</html>
